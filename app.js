@@ -9,7 +9,7 @@ var bcrypt = require('bcrypt');//allows us to hash and salt our passwords
 
 //make conmection to sql database
 var connection = mysql.createConnection({
-	host:'mysql4299int.cp.blacknight.com',
+	host:'mysql4299.cp.blacknight.com',
 	user:'u1518531_dyr_usr',
 	password:'G#8yJbV*6tKq',
 	database:'db1518531_dyr_db'
