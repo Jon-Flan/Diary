@@ -7,8 +7,8 @@
 						<i class="fa fa-user"></i>  <!--font awesome graphic -->
 					</div>
 					<div>  <!-- div just for the username input and an error msg if username is incorrect-->
-						<h5 id="alert1">Username</h5>  <!--Username heading (will be animated) -->
-						<input class="input" type="text" name="username" id="username">  <!-- input space for the username -->	
+						<h5 id="alert1">Email</h5>  <!--Username heading (will be animated) -->
+						<input class="input" type="email" name="email" id="email">  <!-- input space for the username -->	
 					</div>
 				</div>
 				<div class="input-div two">  <!-- div container for everything to do with the password input -->
@@ -29,10 +29,10 @@
 				<script>
 				//functoion for verifying what is entered in to the form
 				function verify(){
-					var x = document.forms["loginForm"]["username"].value;
+					var x = document.forms["loginForm"]["email"].value;
 					var y = document.forms["loginForm"]["password"].value;
 					if(x == "" || y == ""){
-						alert("Username and Password must be filled in");
+						alert("Email and Password must be filled in");
 						return false;
 					}
 				}
